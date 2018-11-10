@@ -1,0 +1,32 @@
+<ns0:pmxstatus xmlns:ns0="local" xml:lang="jp"><pmdinfo><name>天満宮風ステージB</name><name_e /><comment>影範囲を遠方に推奨</comment><comment_e /></pmdinfo>
+<morphs><!--表情グループ 0:使用不可 1:まゆ 2:目 3:リップ 4:その他-->
+</morphs>
+<bones><bone add_move="0" add_rot="0" after_physical="0" b_name="center" fixed_axis="0" ik="0" level="0" local_axis="0" movable="1" name="センター" name_e="center" operational="1" power="1.0" rotatable="1" visible="1"><local_x x="0.0000000" y="0.0000000" z="0.0000000" /><local_z x="0.0000000" y="0.0000000" z="0.0000000" /></bone>
+</bones>
+<labels>
+<label name="Root" name_e="Root" type="1"><tab name="center" type="bone" />
+</label>
+<label name="表情" name_e="Exp" type="1" />
+</labels>
+<materials><material b_name="天満宮" both="1" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="天満宮" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="屋根" both="0" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="屋根" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="室内" both="0" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="室内" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="幹" both="0" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="幹" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="地面外" both="0" drop_shadow="0" edge_size="5.0" ground_shadow="0" name="地面外" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="タイル" both="0" drop_shadow="0" edge_size="5.0" ground_shadow="0" name="タイル" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="タイル2" both="0" drop_shadow="0" edge_size="5.0" ground_shadow="0" name="タイル2" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="線" both="0" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="線" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="すだれ" both="1" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="すだれ" name_e="" on_edge="0" on_shadow="0" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="地面" both="0" drop_shadow="0" edge_size="5.0" ground_shadow="0" name="地面" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="池" both="0" drop_shadow="0" edge_size="5.0" ground_shadow="0" name="池" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="地面2" both="0" drop_shadow="0" edge_size="5.0" ground_shadow="0" name="地面2" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="池2" both="0" drop_shadow="0" edge_size="5.0" ground_shadow="0" name="池2" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="岩" both="1" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="岩" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="扉" both="0" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="扉" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="葉" both="1" drop_shadow="1" edge_size="5.0" ground_shadow="0" name="葉" name_e="" on_edge="0" on_shadow="1" toon="toonb.bmp" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+</materials>
+<rigid_bodies>
+</rigid_bodies>
+<constraints>
+</constraints>
+</ns0:pmxstatus>

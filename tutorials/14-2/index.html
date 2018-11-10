@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MMD</title>
+
+    <script src="../../js/three.js"></script>
+    <script src="../../node_modules/three/examples/js/utils/SceneUtils.js"></script>
+    <script src="../../node_modules/three/examples/js/controls/TrackballControls.js"></script>
+    <script src="../../node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="../../node_modules/three/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="../../node_modules/three/examples/js/postprocessing/MaskPass.js"></script>
+    <script src="../../node_modules/three/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="../../node_modules/three/examples/js/shaders/CopyShader.js"></script>
+    <script src="../../node_modules/three/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="../../node_modules/three/examples/js/postprocessing/FilmPass.js"></script>
+    <script src="./js/shaders/BokehShader.js"></script>
+    <script src="./js/shaders/FocusShader.js"></script>
+    <script src="./js/postprocessing/BokehPass.js"></script>
+    <script src="../../node_modules/three/examples/js/shaders/FilmShader.js"></script>
+
+    <script src="../../node_modules/three/examples/js/postprocessing/GlitchPass.js"></script>
+    <script src="../../node_modules/three/examples/js/shaders/RGBShiftShader.js"></script>
+    <script src="../../node_modules/three/examples/js/shaders/VerticalBlurShader.js"></script>
+    <script src="../../node_modules/three/examples/js/shaders/DigitalGlitch.js"></script>
+    <script src="./js/libs/ammo.js"></script>
+    <script src="./js/loaders/TGALoader.js"></script>
+    <script src="./js/mmdparser.js"></script>
+    <script src="./js/loaders/MMDLoader.js"></script>
+    <script src="./js/animation/CCDIKSolver.js"></script>
+    <script src="./js/effects/OutlineEffect.js"></script>
+    <script src="./js/animation/MMDPhysics.js"></script>
+    <script src="./js/animation/MMDAnimationHelper.js"></script>
+
+    
+    <script src="../../js/stats.js"></script>
+    <script src="../../js/dat.gui/dat.gui.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../main.css" />
+</head>
+<body>
+    <div id="Stats-output">
+
+    </div>
+    <div id="WebGL-output">
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
